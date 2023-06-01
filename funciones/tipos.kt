@@ -23,8 +23,13 @@ fun main(){
     //completar 
     //funcion anonima que encuentre el mayor de tres numeros 
 
-    val max = {n1: Int, n2:Int, n3:Int -> ~}
-    println("valor maximo:");
+    val max = {a: Int, b:Int, c:Int -> 
+    if(a>b && a>c)a
+    else if(b>a && b > c)b
+    else if(c> a && c > b)c
+    else "son iguales"
+}
+    println("valor maximo:${max(5,8,9)}");
 
     //funcion anonima que calcule el promedio de tres numeros
 
