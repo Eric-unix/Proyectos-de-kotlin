@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Operadores">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Operadores/for.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Operadores/if.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Operadores/operadores.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -71,5 +71,13 @@ fun main(){
      );
      println(diccionario);
      
+     fun buscarpalabra(diccionario: Map<String, String>, palabraes: String){
+        if(diccionario.containsValue(palabraes)){
+            println("Resultado:" + diccionario.filter{it.value == palabraes}.key.first())
+        }
+     }
 
+     println("Ingresar plabara en español")
+     val palabraes = readLine()!!
+     buscarpalabra(diccionarioeng, palabraes)
 }                   
